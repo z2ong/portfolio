@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Zach Ong: Personal Contacts</title>
-    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "../style.css">
 </head>
 <body>
     <h1>Zach's Contacts</h1>
+    <form action = "mailto:z2ong@ucsd.edu" method = "post" enctype = "text/plain">
+        <label>
+            Email: <input type = "email" name = "email">
+        </label>
+        <label>
+            Subject: <input name = "Subject">
+        </label>
+        <label>
+            Message: <textarea name = "body"></textarea>
+        </label>
+        <button>Submit:</button>
+        <input name = "email" >
+    </form>
     <nav>
         <a href="../index.html">Home</a>
         <a href="../projects/index.html">Projects</a>
