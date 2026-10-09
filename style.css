@@ -37,6 +37,7 @@ nav {
     }
   }
 }
+
 input, textarea, button {
   font-family: inherit;
 }
@@ -80,4 +81,26 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 400%
+}
+
+.resume {
+  section {
+    margin-bottom: 1ch;
+    
+    h2 {
+      margin-bottom: 1em;
+    }
+  }
+
+  article {
+    margin-bottom: 1em;
+
+    h3 {
+      margin: 1em;
+    }
+
+    p {
+      margin: 1em;
+    }
+  }
 }
