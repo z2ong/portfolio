@@ -100,8 +100,15 @@ h1 {
     }
 
     p {
+      display: list-item;
       margin-bottom: 0.5em;
-      margin-left: 1em;
+      margin-left: 3em;
+    }
+  }
+  nav {
+    p {
+      display: block;
+      margin-left: 0;
     }
   }
 }
