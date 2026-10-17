@@ -14,7 +14,7 @@ let pages = [
 
 const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
   ? "/"
-  : "/website/";
+  : "/portfolio/";
 
 let nav = document.createElement('nav');
 document.body.prepend(nav);
@@ -37,3 +37,14 @@ for (let p of pages) {
  
   nav.append(a);
 }
+
+document.body.insertAdjacentHTML(
+  'afterbegin',
+  `
+	<label class="color-scheme">
+		Theme:
+		<select>
+			<!-- TODO add <option> elements here -->
+		</select>
+	</label>`,
+);
