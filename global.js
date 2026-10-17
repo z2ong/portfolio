@@ -58,3 +58,4 @@ select.addEventListener('input', function (event) {
 });
 
 document.documentElement.style.setProperty('color-scheme', event.target.value);
+
