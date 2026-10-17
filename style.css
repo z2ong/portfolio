@@ -118,3 +118,13 @@ h1 {
   margin-left: 5em;
 }
 
+label.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+}
+
+input, textarea, button, select {
+  font-family: inherit;
+}
