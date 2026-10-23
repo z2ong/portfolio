@@ -42,33 +42,33 @@
         "description": "Efficiently finidng the mode of a list of numbers."
     },
     {
-        "title": "Nostrum hic animi aspernatur.",
+        "title": "HW6 MATH189",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Fugit pariatur necessitatibus ducimus doloribus totam minus modi soluta voluptatem libero illum aspernatur voluptas in maxime, amet esse, asperiores dicta, dolores minima perferendis! Eius quae sint perferendis sed, autem vel."
+        "description": "Testing Epochs in a NN to observe a NN in action."
     },
     {
-        "title": "Dignissimos impedit necessitatibus aliquam.",
+        "title": "Predicting a Likelihood of Purchase: COGS9",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Sed explicabo cumque voluptate dolorem nesciunt laborum, ducimus modi ea delectus! Velit ad ipsa sint numquam ea eum est vero sequi illum dolores, eligendi distinctio assumenda quibusdam esse, aut illo."
+        "description": "Utilizing a predictive classification model to determine whether a customer would be an item based on browsing habits."
     },
     {
-        "title": "Voluptatem recusandae facere omnis.",
+        "title": "SuperHW: DSC40B",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Vero, ipsum placeat? Numquam temporibus accusantium ullam praesentium explicabo ipsam consequuntur dolor, veritatis, itaque at ad iure laudantium quos nihil, mollitia atque sed doloremque nesciunt accusamus velit fuga omnis eos."
+        "description": "Loss functions and ways to minimize them."
     },
     {
-        "title": "Cumque ut natus totam.",
+        "title": "HW2 Ellipsis: MATH173A",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Nulla minus sunt sit veritatis labore cumque? Est dolor harum nisi. Perspiciatis aut minus facere, labore molestiae voluptates praesentium id accusamus. Tempora sequi, saepe repellat aliquam a minus magni possimus!"
+        "description": "Performing gradient descent without using a library on an ellipsis."
     },
     {
-        "title": "Repellendus maiores culpa tempore!",
+        "title": "HW1 P5: DSC140A",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Rerum magni quibusdam facere consequuntur animi repellat, voluptate dolorem ullam eligendi quaerat? Laboriosam atque molestiae vel nulla adipisci, eaque ipsa autem exercitationem nemo! Reprehenderit doloribus cumque dolor, aut aspernatur beatae."
+        "description": "Utilizing a KNN model to determine whether the image is a 3 or a 7."
     }
 ]
