@@ -163,6 +163,7 @@ input, textarea, button, select {
 
 .legend {
   flex: 1;
+  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
   border: 1px solid var(--border-color, #ccc);
   padding: 1.5em;
