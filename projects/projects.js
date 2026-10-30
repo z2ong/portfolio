@@ -24,7 +24,7 @@ function renderPieChart(projectsGiven) {
     (d) => d.year,
   );
 
-  let newData = rolledData.map(([year, count]) => {
+  let newData = newRolledData.map(([year, count]) => {
       return { value: count, label: year };
   });
 
