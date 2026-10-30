@@ -48,7 +48,7 @@ function renderPieChart(projectsGiven) {
       .on('click', () => {
         selectedIndex = selectedIndex === idx ? -1 : idx;
 
-        svg
+        newSVG
           .selectAll('path')
           .attr('class', (_, i) => (i === selectedIndex ? 'selected' : ''));
 
