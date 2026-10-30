@@ -167,9 +167,17 @@ input, textarea, button, select {
 }
  
   path {
-  transition: 300ms;
+    transition: 300ms;
+    cursor: pointer;
+  }
 }
 
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
 }
 
 .legend {

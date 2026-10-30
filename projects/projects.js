@@ -56,6 +56,8 @@ function renderPieChart(projectsGiven) {
 
 }
 
+let selectedIndex = -1;
+
 renderPieChart(projects);
 
 
