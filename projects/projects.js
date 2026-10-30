@@ -82,19 +82,13 @@ let selectedIndex = -1;
 renderPieChart(projects);
 
 
-searchInput.addEventListener('input', (event) => {
+searchInput.addEventListener('change', (event) => {
   query = event.target.value;
 
   let filteredProjects = projects.filter((project) => {
     let values = Object.values(project).join('\n').toLowerCase();
     return values.includes(query.toLowerCase());
   });
-
-  if (selectedIndex !== -1) {
-    let selectedYear = newData[selectedIndex].label
-    filteredProjects = filteredProjects.filter((project) => project.year === selectedYear);
-  }
-
   renderProjects(filteredProjects, projectsContainer, 'h2');
   renderPieChart(filteredProjects);
 });
