@@ -148,17 +148,17 @@ input, textarea, button, select {
   font-style: italic;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
 #projects-pie-plot {
   flex: 1;
   max-width: 20em;
   margin-block: 2em;
   overflow: visible;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  gap: 2em;
 }
 
 .legend {
