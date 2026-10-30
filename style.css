@@ -167,3 +167,8 @@ input, textarea, button, select {
   padding: 1.5em;
   border-radius: 8px;
 }
+
+.legend .swatch {
+  display: inline-block;
+  background-color: var(--color);
+}
