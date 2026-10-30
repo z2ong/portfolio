@@ -172,6 +172,7 @@ input, textarea, button, select {
 .legend li {
   display: flex;
   align-items: center;
+  gap: 0.5em;
 }
 
 .legend .swatch {
