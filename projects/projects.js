@@ -89,6 +89,12 @@ searchInput.addEventListener('change', (event) => {
     let values = Object.values(project).join('\n').toLowerCase();
     return values.includes(query.toLowerCase());
   });
+
+  if (selectedIndex !== -1) {
+    let selectedYear = newData[selectedIndex].label
+    filteredProjects = filteredProjects.filter((project) => project.year === selectedYear);
+  }
+
   renderProjects(filteredProjects, projectsContainer, 'h2');
   renderPieChart(filteredProjects);
 });
