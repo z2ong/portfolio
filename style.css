@@ -169,6 +169,11 @@ input, textarea, button, select {
   list-style: none;
 }
 
+.legend li {
+  display: flex;
+  align-items: center;
+}
+
 .legend .swatch {
   display: inline-block;
   width: 1em;
