@@ -30,6 +30,7 @@ function renderPieChart(projectsGiven) {
 
   let newSliceGenerator = d3.pie().value((d) => d.value);;
   let newArcData = newSliceGenerator(newData);
+  let newArcGenerator = d3.arc().innerRadius(0).outerRadius(50);
   let newArcs = newArcData.map((d) => newArcGenerator(d));
   let colors = d3.scaleOrdinal(d3.schemeTableau10);
 
