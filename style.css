@@ -144,6 +144,6 @@ input, textarea, button, select {
 }
 
 .year {
-  font-size: 1%;
+  font-size: 1rem;
   font-style: italic;
 }
