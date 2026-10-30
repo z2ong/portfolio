@@ -44,7 +44,18 @@ function renderPieChart(projectsGiven) {
     newSVG
       .append('path')
       .attr('d', arc)
-      .attr('fill', colors(idx));
+      .attr('fill', colors(idx))
+      .on('click', () => {
+        selectedIndex = selectedIndex === idx ? -1 : idx;
+
+        svg
+          .selectAll('path')
+          .attr('class', (_, i) => (i === selectedIndex ? 'selected' : ''));
+
+        legend
+          .selectAll('li')
+          .attr('class', (_, i) => (i === selectedIndex ? 'selected' : ''));
+      });
   });
 
   newData.forEach((d, idx) => {
