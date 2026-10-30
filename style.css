@@ -153,3 +153,13 @@ input, textarea, button, select {
   margin-block: 2em;
   overflow: visible;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.legend {
+  flex: 1;
+}
