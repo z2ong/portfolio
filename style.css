@@ -142,3 +142,7 @@ input, textarea, button, select {
 #profile-stats dd {
   grid-row: 2;
 }
+
+.year {
+  font-size: 20%;
+}
