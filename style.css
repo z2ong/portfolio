@@ -147,3 +147,10 @@ input, textarea, button, select {
   font-size: 1rem;
   font-style: italic;
 }
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
