@@ -170,5 +170,7 @@ input, textarea, button, select {
 
 .legend .swatch {
   display: inline-block;
+  width: 1em;
+  height: 1em;
   background-color: var(--color);
 }
