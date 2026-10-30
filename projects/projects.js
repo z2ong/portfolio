@@ -82,7 +82,7 @@ let selectedIndex = -1;
 renderPieChart(projects);
 
 
-searchInput.addEventListener('change', (event) => {
+searchInput.addEventListener('input', (event) => {
   query = event.target.value;
 
   let filteredProjects = projects.filter((project) => {
