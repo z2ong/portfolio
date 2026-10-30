@@ -151,6 +151,5 @@ input, textarea, button, select {
 #projects-pie-plot {
   max-width: 20em;
   margin-block: 2em;
-
   overflow: visible;
 }
