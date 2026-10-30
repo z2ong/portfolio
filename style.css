@@ -166,6 +166,7 @@ input, textarea, button, select {
   border: 1px solid var(--border-color, #ccc);
   padding: 1.5em;
   border-radius: 8px;
+  list-style: none;
 }
 
 .legend .swatch {
@@ -173,5 +174,4 @@ input, textarea, button, select {
   width: 1em;
   height: 1em;
   background-color: var(--color);
-  list-style: none;
 }
