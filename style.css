@@ -291,7 +291,7 @@ circle.selected {
   fill: #ff6b6b;
 }
 
-#language-breakdown dl {
+#language-breakdown {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   column-gap: 16px;
