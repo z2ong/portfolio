@@ -81,7 +81,7 @@ function renderCommitInfo(data, commits) {
   dl.append('dd').text(longestLine)
 
   dl.append('dt').text('AVERAGE FILE LENGTH')
-  dl.append('dd').text(averageFileLength)
+  dl.append('dd').text(averageFileLength.toFixed(1))
 }
 
 let data = await loadData();
