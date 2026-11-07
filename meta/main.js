@@ -55,9 +55,7 @@ function renderCommitInfo(data, commits) {
   const numFiles = d3.group(data, (d) => d.file).size;
   const totalLoc = data.length;
   const maxDepth = d3.max(data, (d) => d.depth);
-
-  dl.append('dt').html('TOTAL LOC');
-  dl.append('dd').text(totalLoc);
+  const longestLine = d3.max(data, (d) => d.length);
 
   dl.append('dt').text('COMMITS');
   dl.append('dd').text(totalCommits);
@@ -65,8 +63,14 @@ function renderCommitInfo(data, commits) {
   dl.append('dt').text('FILES');
   dl.append('dd').text(numFiles);
 
+  dl.append('dt').html('TOTAL LOC');
+  dl.append('dd').text(totalLoc);
+
   dl.append('dt').text('MAX DEPTH');
   dl.append('dd').text(maxDepth);
+
+  dl.append('dt').text('LONGEST LINE');
+  dl.append('dd').text(longestLine)
 }
 
 let data = await loadData();
