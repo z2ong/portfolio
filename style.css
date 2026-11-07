@@ -206,7 +206,7 @@ input, textarea, button, select {
 
 #commit-stats dl {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 #commit-stats dt {
