@@ -207,14 +207,20 @@ input, textarea, button, select {
 #commit-stats dl {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  column-gap: 16px;
+  row-gap: 8px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #commit-stats dt {
   grid-row: 1;
   font-weight: bold;
   white-space: nowrap;
+  text-align: center;
 }
 
 #commit-stats dd {
   grid-row: 2;
+  text-align: center;
 }
