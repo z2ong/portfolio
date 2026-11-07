@@ -80,7 +80,7 @@ function renderCommitInfo(data, commits) {
   dl.append('dt').text('LONGEST LINE');
   dl.append('dd').text(longestLine)
 
-  dl.append('dt').text('AVERAGE FILE LENGTH')
+  dl.append('dt').text('AVG FILE LEN')
   dl.append('dd').text(averageFileLength.toFixed(1))
 }
 
