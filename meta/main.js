@@ -71,7 +71,7 @@ function renderCommitInfo(data, commits) {
   dl.append('dt').text('FILES');
   dl.append('dd').text(numFiles);
 
-  dl.append('dt').html('TOTAL LOC');
+  dl.append('dt').text('TOTAL LOC');
   dl.append('dd').text(totalLoc);
 
   dl.append('dt').text('MAX DEPTH');
