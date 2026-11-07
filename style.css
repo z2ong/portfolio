@@ -212,6 +212,7 @@ input, textarea, button, select {
 #commit-stats dt {
   grid-row: 1;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 #commit-stats dd {
