@@ -222,5 +222,6 @@ input, textarea, button, select {
 
 #commit-stats dd {
   grid-row: 2;
+  margin: 0;
   text-align: center;
 }
