@@ -225,3 +225,7 @@ input, textarea, button, select {
   margin: 0;
   text-align: center;
 }
+
+.gridlines line {
+  stroke-opacity: 0.2;
+}

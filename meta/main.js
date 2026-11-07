@@ -99,6 +99,7 @@ function renderScatterPlot(data, commits) {
         .domain(d3.extent(commits, (d) => d.datetime))
         .range([0, width])
         .nice();
+        
     const yScale = d3.scaleLinear().domain([0, 24]).range([height, 0]);
 
     const margin = { top: 10, right: 10, bottom: 30, left: 20 };
