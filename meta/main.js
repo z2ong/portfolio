@@ -57,6 +57,14 @@ function renderCommitInfo(data, commits) {
   const maxDepth = d3.max(data, (d) => d.depth);
   const longestLine = d3.max(data, (d) => d.length);
 
+  const fileLengths = d3.rollups(
+    data,
+    (v) => d3.max(v, (v) => v.line),
+    (d) => d.file,
+  );
+  const averageFileLength = d3.mean(fileLengths, (d) => d[1]);
+
+
   dl.append('dt').text('COMMITS');
   dl.append('dd').text(totalCommits);
 
@@ -71,6 +79,9 @@ function renderCommitInfo(data, commits) {
 
   dl.append('dt').text('LONGEST LINE');
   dl.append('dd').text(longestLine)
+
+  dl.append('dt').text('AVERAGE FILE LENGTH')
+  dl.append('dd').text(averageFileLength)
 }
 
 let data = await loadData();
