@@ -290,3 +290,25 @@ circle:hover {
 circle.selected {
   fill: #ff6b6b;
 }
+
+#language-breakdown dl {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  column-gap: 16px;
+  row-gap: 8px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#language-breakdown dt {
+  grid-row: 1;
+  font-weight: bold;
+  white-space: nowrap;
+  text-align: center;
+}
+
+#language-breakdown dd {
+  grid-row: 2;
+  margin: 0;
+  text-align: center;
+}
