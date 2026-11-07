@@ -215,12 +215,3 @@ input, textarea, button, select {
   align-items: center;
   text-align: center;
 }
-
-#commit-stats dt {
-  grid-row: 1;
-  font-weight: bold;
-}
-
-#commit-stats dd {
-  grid-row: 2;
-}
