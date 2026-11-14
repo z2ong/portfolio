@@ -1,74 +1,93 @@
 [
     {
+        "title": "Geospatial Visualizations: DSC106 Lab 7",
+        "year": 2026,
+        "image": "images/image.png",
+        "description": "Creating an interactive map visualization of Boston's Bluebikes bike-sharing data exploring the number of trips, whether a station has more departures or arrivals, and overall bike traffic patterns across the city depending on the time of day.",
+        "url": "https://z2ong.github.io/bikewatching/"
+    },
+    {
         "title": "Lifestyle Habits & Sleep Duration: COGS108 Final Project",
         "year": 2025,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Comparing factors like weekly physical activity level, weekly alcohol consumption amount, weekly caffeine consumption amount, and stress levels with sleep duration led to the interesting discovery that stress and physical activity levels are two factors that are associated with sleep duration the most."
+        "description": "Comparing factors like weekly physical activity level, weekly alcohol consumption amount, weekly caffeine consumption amount, and stress levels with sleep duration led to the interesting discovery that stress and physical activity levels are two factors that are associated with sleep duration the most.",
+        "url": ""
     },
     {
         "title": "Spotify Song Popularity: COGS109 Final Project",
         "year": 2025,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Utilizing a KNN model to observe how multiple factors can influence a song's all time rank."
+        "description": "Utilizing a KNN model to observe how multiple factors can influence a song's all time rank.",
+        "url": ""
     },
     {
         "title": "Do Ultra Processed Foods Dominate Our Grocery Stores: Expository Visualization",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Observing trends between proportion of food items and NOVA processing class."
+        "description": "Observing trends between proportion of food items and NOVA processing class.",
+        "url": ""
     },
     {
         "title": "Secondary School Enrollment Gaps Between Males and Females",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Utilizing different techniques to portray both a deceptive and truthful question."
+        "description": "Utilizing different techniques to portray both a deceptive and truthful question.",
+        "url": ""
     },
     {
         "title": "Analysis On 2022 League Pro Match Data",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Utlizied a Random Forest Regression model to predict how long a league of legends match would takes to finish utilizing the information available 15 minutes into the game."
+        "description": "Utlizied a Random Forest Regression model to predict how long a league of legends match would takes to finish utilizing the information available 15 minutes into the game.",
+        "url": ""
     },
     {
         "title": "DSC40B HW6",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Assigning good and evil to a graph."
+        "description": "Assigning good and evil to a graph.",
+        "url": ""
     },
     {
         "title": "DSC40B HW5",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Efficiently finidng the mode of a list of numbers."
+        "description": "Efficiently finidng the mode of a list of numbers.",
+        "url": ""
     },
     {
         "title": "HW6 MATH189",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Testing Epochs in a NN to observe a NN in action."
+        "description": "Testing Epochs in a NN to observe a NN in action.",
+        "url": ""
     },
     {
         "title": "Predicting a Likelihood of Purchase: COGS9",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Utilizing a predictive classification model to determine whether a customer would be an item based on browsing habits."
+        "description": "Utilizing a predictive classification model to determine whether a customer would be an item based on browsing habits.",
+        "url": ""
     },
     {
         "title": "SuperHW: DSC40B",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Loss functions and ways to minimize them."
+        "description": "Loss functions and ways to minimize them.",
+        "url": ""
     },
     {
         "title": "HW2 Ellipsis: MATH173A",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Performing gradient descent without using a library on an ellipsis."
+        "description": "Performing gradient descent without using a library on an ellipsis.",
+        "url": ""
     },
     {
         "title": "HW1 P5: DSC140A",
         "year": 2026,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Utilizing a KNN model to determine whether the image is a 3 or a 7."
+        "description": "Utilizing a KNN model to determine whether the image is a 3 or a 7.",
+        "url": ""
     }
 ]
