@@ -2,7 +2,7 @@
     {
         "title": "Geospatial Visualizations: DSC106 Lab 7",
         "year": 2026,
-        "image": "/bikewatching/images/image.png",
+        "image": "../images/image.png",
         "description": "Creating an interactive map visualization of Boston's Bluebikes bike-sharing data exploring the number of trips, whether a station has more departures or arrivals, and overall bike traffic patterns across the city depending on the time of day.",
         "url": "https://z2ong.github.io/bikewatching/"
     },
