@@ -319,3 +319,18 @@ circle.selected {
   margin: 0;
   text-align: center;
 }
+
+#commit-label {
+  margin-top: 4.5rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+#commit-progress {
+  flex: 1;
+}
+
+#commit-time {
+  margin-left: auto;
+}
