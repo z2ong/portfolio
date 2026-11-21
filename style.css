@@ -379,6 +379,7 @@ dt small {
 }
 
 #scrolly-1 {
+  margin-top: 2em;
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -391,12 +392,13 @@ dt small {
 
 #scatter-story {
   position: relative;
-  max-height: 60vh;
+  max-height: 50vh;
   overflow-y: auto;
 }
 
 #scrolly-1 .step {
-  padding-bottom: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #scatter-plot {
